@@ -1,0 +1,462 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<script src="https://kit.fontawesome.com/2a3bc560c7.js" crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/2a3bc560c7.js" crossorigin="anonymous"></script>
+	<style type="text/css">
+		*{
+			margin: 0%;
+			/*border:1px solid red;*/
+		}
+		.sec1{
+			display: flex;
+			width: 100%;
+		}
+		.navbar{
+			width:70%;
+			font-size: 12px;
+			text-align: center;
+			padding: 2%;
+		}
+		.navbar>a{
+			text-decoration: none;
+			color: black;
+			margin-right: 2.8%;
+		}
+		.navbar>a:hover{
+            color: orange;
+		}
+		.input{
+			margin: 2%;
+			padding: 0.2%;
+			border: 1px solid black;
+		}
+		.input>input{
+			border:none;
+			width: 85%;
+
+		}
+		.sec2{
+			background-color: rgb(105,105,105);
+		    padding: 10% 5%;
+		}
+		.biz{
+			padding: 2%;
+			background-color: orange;
+			font-size: 12px;
+		}
+		.tox{
+			text-align: center;
+		}
+		.tax{
+			color: grey;
+		}
+		.rectangle{
+			margin-left: 10%;
+			background-color: grey;
+			padding:7% 5%;
+			width: 25%;
+			height: 20px;
+		}
+		.eva{
+			margin: 5% 0%;
+			font-size: 12px;
+		}
+		.circle{
+			background-color: darkorange;
+			color: white;
+			width: 80px;
+			height: 60px;
+			border-radius: 50%;
+			position: absolute;
+		    top:  20%;
+			right: 59%;
+			text-align: center;
+			padding-top: 3%;
+		    font-size: 12px;
+		}
+		.circle2{
+			background-color: white;
+			color: black;
+			width: 50px;
+			height: 40px;
+			border-radius: 50%;
+			position: absolute;
+			top: 32%;
+			right: 57%;
+			text-align: center;
+			padding-top: 2%;
+			font-size: 9px;
+		}
+		.abc{
+			margin-top: 5%;
+		}
+		.read{
+			color: white;
+			background-color: grey;
+			border: 1px solid white;
+			border-radius: 25px;
+			width: 40%;
+			padding: 4%;
+			margin-right: 5%;
+			font-size: 10px;
+		}
+		.get{
+			font-size: 10px;
+			border: 1px solid white;
+			border-radius: 20px;
+			width: 50%;
+			padding: 4%;
+			background-color: orange;
+		}
+		.ghi{
+			position: absolute;
+			top: 25%;
+			left: 50%;
+			color: rgba(255,250,250,0.5);
+		}
+		.web{
+			font-family: sans-serif;
+			font-weight: bold;
+			color: white;
+			margin-top: 15%;
+		}
+		
+		.sec3{
+			color: white;
+			background-color: rgb(40,40,40);
+			padding: 5% 15%;
+		}
+		.name{
+			font-size: 12px;
+			color: rgba(255,255,255,0.5);
+			margin:2% 0%;
+		}
+		.domain-input{
+			padding:2%;
+			width:60%;
+			outline: none;
+		}
+		.net{
+			width:10%;
+			padding:2%;
+			outline: none;
+			border-left-style: solid;
+			border-width:1px;
+			margin-left:-2%;
+		}
+		.search{
+			color: white;
+			border:none;
+			background-color: orange;
+			padding:2%;
+			width:19%;
+			margin-left:-0.6%;
+		}
+		.sec4{
+			padding: 8% 15%;
+			display: flex;
+		}
+		.sec4>div{
+			border:1px solid grey;
+			margin-right: 1%;
+			margin-left:1%;
+		}	
+		.com{
+			font-size: 12px;
+			padding:2%;
+			text-align: center;
+		}
+		.circle3{
+			width: 30%;
+			background-color: #D3D3D3;
+			border-radius: 50%;
+			color: black;
+			text-align: center;
+			padding:10% 1%;
+			margin-left:32%;
+		}
+		.text{
+			color: grey;
+		}
+		.yup{
+			border: 1px solid black;
+			border-radius: 20px;
+			padding: 5% 20%;
+			margin-top: 10%
+		}
+        .rectangle2{
+            background-color: grey;
+            width: 50%;
+        }
+		.who{
+			padding-left: 5%;
+			font-size: 25px;
+			font-family: sans-serif;
+		}
+		.feast{
+			background-color: lightgrey;
+            padding: 3% 3%;
+		}
+		.history{
+			padding-top: 3%;
+			font-family: sans-serif;
+		}
+		.amet{
+			color: grey;
+			font-family: sans-serif;
+			padding-top: 3%;
+			padding-left: 6%;
+			font-size: 12px;
+		}
+		.fa-solid{
+			padding-right: 2%;  
+		}
+		.sec{
+			padding: 3% 5%;
+		}
+		.sit{
+			padding-top: 2%;
+			color: grey;
+			font-size: 14px;
+		}
+		.sec7{
+			font-family: sans-serif;
+			padding-left: 2%;
+		}
+		.sec7>div{
+			margin-left: 3%;
+		}
+		.sec8{
+			font-family: sans-serif;
+			padding-left: 2%;
+			padding-top: 4%;
+		}
+		.sec8>div{
+			margin-left: 3%;
+		}
+		.mla{
+			padding-top: 2%;
+			color: grey;
+			font-size: 14px;
+		}
+		.what{
+			text-align: center;
+			padding-top: 10%;
+		}
+		.dolor{
+			padding-top: 5%;
+		}
+		@media (max-width: 992px){
+			.circle{
+				position: absolute;
+			    top:  10%;
+			}
+			.circle2{
+                position: absolute;
+			    top: 15.7%;
+			}
+			.ghi{
+                position: absolute;
+			    top: 12%;
+			}
+		}
+		@media (max-width: 768px){
+			.circle{
+				position: absolute;
+			    top:  9%;
+			}
+			.circle2{
+                position: absolute;
+			    top: 15.5%;
+			}
+		}
+		@media (max-width: 576px){
+			.sec1{
+				width: 110%;
+			}
+			.input>input{
+				width: 65%;
+			}
+			.fa-solid{
+				padding-right: 1%;
+			}
+			.circle{
+				position: absolute;
+				top: 14%;
+				width: 55px;
+				height: 40px;
+			    font-size: 10px;
+			}
+			.circle2{
+				position: absolute;
+				top: 23%; 
+				right: 57%;
+				width: 40px;
+				height: 30px;
+			}
+			.ghi{
+				position: absolute;
+				top: 16%;
+			}
+			.circle3{
+				width: 50%;
+			}
+			.sec1{
+                width: 100%;
+			}
+			.navbar{
+				width:110%;
+			}
+		}			
+		.circles>p{
+			width: 2%;
+			background-color: rgb(188, 210, 232);
+			border-radius: 50%;
+			padding:3% 2%;
+			margin-left:2%;
+		}
+	</style>
+</head>
+<body>
+	<section class="sec1">
+		<div class="navbar">
+			<a href="#">Home</a>
+     	    <a href="#">Domains</a>
+     	    <a href="#">Hosting</a>
+     	    <a href="#">Website</a>
+     	    <a href="#">Affiliate</a>
+     	    <a href="#">Support</a>
+     	    <a href="#">Blog</a>
+     	    <a href="#">Contact</a>
+        </div>
+        <div class="input">
+        	<input type="text" placeholder="enter keyword here"/> 
+        	<i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+    </section>
+    <section class="sec2">
+     	<div>
+     		<p class="rectangle"></p>
+     		<p class="circle">Starting at<br/>$4.99/mo</p>
+     		<p class="circle2">Up to<br/>50% off</p>
+     	</div>
+     	<section class="ghi">
+     		<div>
+     			<p>UNLIMITED<br/><span class="web">WEB HOSTING</span></p>
+     		    <p class="eva">Lorem ipsum dolor sit mame consectetuer adipiscing elit.<br/>Suspendisse et justo.Praesent mattis commodo augue.</p>
+     		</div>	
+     	   <div>	
+     		    <button class="read"><font color="white">READ MORE</font></button>
+     		    <button class="get"><font color="white">GET STARTED NOW</font></button>
+     	   </div>
+     	
+        </section>
+    </section>
+    <section class="sec3">
+    	<div>
+    		<h1>Domain Search</h1>
+    		<p class="name">Lorem ipsum dolor sit amet consectetuer adipiscing elit.Suspendisse et justo.Praesent mattis commomd augue Aliquam <font color="orange">justo sit amet et</font> lorem ornare.</p>
+    		<input class="domain-input" type="text" placeholder="Enter your Domain Name Here"/>
+    		<input class="net" type="text" placeholder=".net"/>
+    		<button class="search">Search</button>
+    	</div>
+    </section>
+    <section class="sec4">
+	    <div class="com">
+	    	<h2 class="don"><font color="orange">.com</font></h2>
+	    	<p class="circle3"><strike>$3.99</strike><br/>$3.99</p>
+	    	<p class="text">Lorem ipsum dolor sit amet,<br/>consectetuer eit.</p>
+	    	<button class="yup">Register</button>
+	    </div>
+	   <div class="com">
+	    	<h2 class="don"><font color="green">.net</font></h2>
+	    	<p class="circle3"><strike>$3.99</strike><br/>$3.99</p>
+	    	<p class="text">Lorem ipsum dolor sit amet,<br/>consectetuer eit.</p>
+	    	<button class="yup">Register</button>
+	   </div>
+	   <div class="biz">
+	    	<h2 class="tox"><font color="white">.biz</font></h2>
+	    	<p class="circle3"><strike>$3.99</strike><br/>$3.99</p>
+	    	<p class="tax">Lorem ipsum dolor sit amet,<br/>consectetuer eit.</p>
+	    	<button class="yup">Register</button>
+	    </div>
+	    <div class="com">
+	    	<h2 class="don"><font color="skyblue">.org</font></h2>
+	    	<p class="circle3"><strike>$3.99</strike><br/>$3.99</p>
+	    	<p class="text">Lorem ipsum dolor sit amet,<br/>consectetuer eit.</p>
+	    	<button class="yup">Register</button>
+	    </div>
+    </section>
+    <section class="sec5" style="display: flex;">
+    	<p class="rectangle2"></p>
+    	<div class="feast">
+    		<p class="who">Who We Are & What We Do</p>
+    	    <p class="amet">Lorem ipsum dolor sit amet consectetuer adipiscing elit.Suspendisse et justo.Praesent<br/> mattis commomd augue Aliquam <font color="orange">justo sit amet et</font> lorem ornare.</p>
+    	    <p class="history"><i class="fa-solid fa-earth-americas"></i>Our History</p>
+    	    <p class="amet">Lorem ipsum dolor sit amet,consecttuer adipiscing elit.Suspendisse et justo praesent<br/> mattis commomdo augue.</p>
+    	    <p class="history"><font color="orange"><i class="fa-solid fa-globe"></i>Fast Hosting</font></p>
+    	    <p class="amet">Lorem ipsum  dolor sit amet,consecttuer adipiscing elit.Suspendisse et justo praesent<br/> mattis commomdo augue.</p>
+    	    <p class="history"><i class="fa-solid fa-rocket"></i>24/7 Support</p>
+    	    <p class="amet">Lorem ipsum dolor sit amet,consecttuer adipiscing elit.Suspendisse et justo praesent<br/> mattis commomdo augue.</p>
+       </div>	
+    </section>
+    <section class="sec6">
+    	<div class="sec">
+			<h2>Our Services</h2>
+			<p class="sit">Lorem ipsum dolor sit amet consectetuer adipiscing elit.Suspendisse et justo.Praesent<br/> mattis commomd augue Aliquam <font color="orange">justo sit amet et</font> lorem ornare.</p>
+		</div>
+	</section>	
+	<section class="sec7" style="display: flex;">
+		<div class="def">	
+			<h4><i class="fa-solid fa-globe"></i>Web Site Management</h4>
+			<p class="sit">Lorem ipsum dolor sit amet,<br/>consectetuer elit.Suspendisse et <br/>dolor sit amet justo.</p>
+		</div>
+		<div class="ded">	
+			<h4><i class="fa-solid fa-server"></i>Dedicated Servers</h4>
+            <p class="sit">Lorem ipsum dolor sit amet,<br/>consectetuer elit.Suspendisse et <br/>dolor sit amet justo.</p>
+        </div>
+        <div class="ema">    
+			<h4><font color="orange"><i class="fa-solid fa-envelope"></i>Email Services</font></h4>
+            <p class="sit">Lorem ipsum dolor sit amet,<br/>consectetuer elit.Suspendisse et <br/>dolor sit amet justo.</p>
+        </div>
+        <div class="mar">    
+			<h4><i class="fa-solid fa-suitcase"></i>Marketing Services</h4>
+            <p class="sit">Lorem ipsum dolor sit amet,<br/>consectetuer elit.Suspendisse et <br/>dolor sit amet justo.</p>
+		</div>
+    </section>
+    <section class="sec8" style="display: flex;">
+		<div class="url">	
+			<h4><i class="fa-solid fa-cloud-arrow-up"></i>Domain Transfer</h4>
+			<p class="mla">Lorem ipsum dolor sit amet,<br/>consectetuer elit.Suspendisse et <br/>dolor sit amet justo.</p>
+		</div>
+		<div class="tit">
+			<h4><i class="fa-solid fa-display"></i>Website Builder</h4>
+            <p class="mla">Lorem ipsum dolor sit amet,<br/>consectetuer elit.Suspendisse et <br/>dolor sit amet justo.</p>
+		</div>	
+		<div class="sat">
+			<h4><i class="fa-solid fa-user-group"></i>Reseller Hosting</h4>
+            <p class="mla">Lorem ipsum dolor sit amet,<br/>consectetuer elit.Suspendisse et <br/>dolor sit amet justo.</p>
+		</div>	
+		<div class="wat">
+			<h4><i class="fa-solid fa-comments"></i>24/7 Support</h4>
+            <p class="mla">Lorem ipsum dolor sit amet,<br/>consectetuer elit.Suspendisse et<br/> dolor sit amet justo.</p>
+		</div>
+    </section>
+    <section class="sec9">
+    	<div class="what">
+    		<p>WHAT PEOPLE SAYS</p>
+    	    <p class="dolor">Lorem ipsum dolor sit amet,consectetuer adipiscing elit.Suspendisse et justo.Praesent<br/> mattis commodo augue sit amet et justo.</p>
+    	    <div class="circles" style="display: flex;">
+    	    	<p class="circle4"></p>
+    	        <p class="circle5"></p>
+    	        <p class="circle6"></p>
+    	    </div>    
+    	</div>    
+    </section>	
+</body>
+</html>
+
+
